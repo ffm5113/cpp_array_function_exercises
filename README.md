@@ -5,7 +5,7 @@ The Exercises are as follows:
 <ol>
 <li>Square each number</li>
 <li>Add a random number to each number</li>
-<li>Add the following number to each number</li>
+<li>Add the following number to each number (except the last)</li>
 <li>Find the sum of the numbers</li>
 <li>Display the largest number</li>
 </ol>
