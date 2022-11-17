@@ -35,10 +35,15 @@ int main()
 	// Call functions using numbers array,
 	// which is passed as const (read-only)
 	printOriginal(numbers);
+	// Exercise # 1
 	squareEachNum(numbers);
+	// Exercise # 2
 	addRandomNum(numbers);
+	// Exercise # 3
 	addFollowingNum(numbers);
+	// Exercise # 4
 	sumAllNums(numbers);
+	// Exercise # 5
 	displayLargestNum(numbers);
 }
 void printOriginal(const int numbersPassed[])
