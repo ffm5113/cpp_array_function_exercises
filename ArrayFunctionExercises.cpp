@@ -45,6 +45,8 @@ int main()
 	sumAllNums(numbers);
 	// Exercise # 5
 	displayLargestNum(numbers);
+	// Close program by returning 0 to main
+	return 0;
 }
 void printOriginal(const int numbersPassed[])
 {	// Print original read-only array
