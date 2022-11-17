@@ -11,3 +11,5 @@ The Excercises are as follows:
 </ol>
 
 Link to .cpp file: <a href="https://github.com/ffm5113/cpp_array_function_exercises/blob/main/ArrayFunctionExercises.cpp">Array Function Exercises C++ Program</a>
+
+Copyright (c) 2022 ffm5113
