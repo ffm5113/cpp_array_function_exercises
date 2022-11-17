@@ -8,7 +8,7 @@
 using namespace std;
 
 // Global Constant Initialization
-const string TITLE = "Array Exercises Program";
+const string TITLE = "Array Function Exercises Program";
 const string AUTHOR_LINE = "By Forrest Moulin";
 const int ARRAY_SIZE = 10;
 
@@ -163,35 +163,35 @@ void placeCommas(int i)
 }
 /*
 * CONSOLE OUTPUT
-* Array Exercises Program
+* Array Function Exercises Program
 * By Forrest Moulin
 *
-* Original array:
-* {5,4,2,7,6,8,5,2,8,14}
-*
+* Original array values:
+* {10,16,20,14,16,9,15,8,16,14}
+* 
 * Exercise # 1
 * -------------
-* Squared array:
-* {25,16,4,49,36,64,25,4,64,196}
+* Squared array values:
+* {100,256,400,196,256,81,225,64,256,196}
 * 
 * Exercise # 2
 * -------------
 * Random number (0-10) added to array values:
-* {6,12,2,9,6,15,8,4,18,15}
-*
+* {11,19,28,23,18,16,16,14,24,15}
+* 
 * Exercise # 3
 * -------------
-* Add the following number to each current number,
-* except on the last number:
-* {9,6,9,13,14,13,7,10,22,14}
-*
+* The following number added to each number,
+* except the last:
+* {26,36,34,30,25,24,23,24,30,14}
+* 
 * Exercise # 4
 * -------------
 * Sum of all array numbers:
-* 61
-*
+* 138
+* 
 * Exercise # 5
 * -------------
 * Largest of all original array numbers:
-* 14
+* 20
 */
