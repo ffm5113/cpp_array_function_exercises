@@ -79,12 +79,13 @@ void addRandomNum(const int numbersPassed[])
 		<< setw(14) << setfill('-') << " " << endl
 		<< "Random number (0-10) added to array values:" << endl
 		<< "{";
-	// 11 options for random # (0-10)
-	int randomNum = rand() % 10;
 	// Make a array that will copy read only
 	int numbersCopy[ARRAY_SIZE];
 	for (int i = 0; i < ARRAY_SIZE; i++)
-	{	// Change array copy value to sum with random int
+	{
+		// 11 options for random # (0-10)
+		int randomNum = rand() % 11;
+		// Change array copy value to sum with random int
 		numbersCopy[i] =
 			numbersPassed[i] + randomNum;
 		cout << numbersCopy[i];
@@ -172,7 +173,7 @@ void placeCommas(int i)
 * Exercise # 2
 * -------------
 * Random number (0-10) added to array values:
-* {8,7,5,10,9,11,8,5,11,17}
+* {6,12,2,9,6,15,8,4,18,15}
 *
 * Exercise # 3
 * -------------
