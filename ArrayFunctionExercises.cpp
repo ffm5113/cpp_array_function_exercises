@@ -26,12 +26,11 @@ void placeCommas(int i);
 
 int main()
 {
+	cout << TITLE << endl
+		<< AUTHOR_LINE << endl << endl;
 	// Seed the random number generated
 	// using the current time
 	srand(time(NULL));
-
-	cout << TITLE << endl
-		<< AUTHOR_LINE << endl << endl;
 	
 	// Call functions using numbers array,
 	// which is passed as const (read-only)
