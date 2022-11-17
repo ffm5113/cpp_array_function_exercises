@@ -56,7 +56,7 @@ void printOriginal(const int numbersPassed[])
 // Exercise 1: Square each int
 void squareEachNum(const int numbersPassed[])
 {
-	cout << "Excercise # 1" << endl
+	cout << "Exercise # 1" << endl
 		<< setw(14) << setfill('-') << " " << endl
 		<< "Squared array:" << endl
 		<< "{";
@@ -74,7 +74,7 @@ void squareEachNum(const int numbersPassed[])
 // Exercise 2: Add random int (1-10) to each int
 void addRandomNum(const int numbersPassed[])
 {
-	cout << "Excercise # 2" << endl
+	cout << "Exercise # 2" << endl
 		<< setw(14) << setfill('-') << " " << endl
 		<< "Added random number array:" << endl
 		<< "{";
@@ -94,7 +94,7 @@ void addRandomNum(const int numbersPassed[])
 // except for the last int
 void addFollowingNum(const int numbersPassed[])
 {
-	cout << "Excercise # 3" << endl
+	cout << "Exercise # 3" << endl
 		<< setw(14) << setfill('-') <<  " " << endl
 		<< "Add the following number to each current number,"
 		<< endl << "except on the last number:" << endl << "{";
@@ -117,7 +117,7 @@ void addFollowingNum(const int numbersPassed[])
 // Exercise 4: Sum all the array ints
 void sumAllNums(const int numbersPassed[])
 {
-	cout << "Excercise # 4" << endl
+	cout << "Exercise # 4" << endl
 		<< setw(14) << setfill('-') << " " << endl
 		<< "Sum of all array numbers:" << endl;
 	int sum = 0;
@@ -129,7 +129,7 @@ void sumAllNums(const int numbersPassed[])
 }
 // Exercise 5: Display the largest int of the array
 void displayLargestNum(const int numbersPassed[]) {
-	cout << "Excercise # 5" << endl
+	cout << "Exercise # 5" << endl
 		<< setw(14) << setfill('-') << " " << endl
 		<< "Largest of all original array numbers:" << endl;
 	int largestNum;
@@ -162,23 +162,23 @@ void placeCommas(int i)
 * Original array:
 * {10,20,18,14,12,16,10,20,16,14}
 * 
-* Excercise # 1
+* Exercise # 1
 * -------------
 * Squared array:
 * {100,400,324,196,144,256,100,400,256,196}
 * 
-* Excercise # 3
+* Exercise # 3
 * -------------
 * Add the following number to each current number,
 * except on the last number:
 * {30,38,32,26,28,26,30,36,30,14}
 * 
-* Excercise # 4
+* Exercise # 4
 * -------------
 * Sum of all array numbers:
 * 150
 * 
-* Excercise # 5
+* Exercise # 5
 * -------------
 * Largest of all original array numbers:
 * 20
