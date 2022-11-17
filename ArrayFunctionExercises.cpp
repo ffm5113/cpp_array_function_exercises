@@ -13,7 +13,7 @@ const string AUTHOR_LINE = "By Forrest Moulin";
 const int ARRAY_SIZE = 10;
 
 // Initialize global int array of size 10
-int numbers[ARRAY_SIZE] = {5,4,2,7,6,8,5,2,8,14};
+int numbers[ARRAY_SIZE] = {10,16,20,14,16,9,15,8,16,14};
 
 // Function prototypes to notify compiler
 void printOriginal(const int  numbersPassed[]);
