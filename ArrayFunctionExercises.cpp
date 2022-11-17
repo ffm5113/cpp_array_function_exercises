@@ -8,7 +8,7 @@
 using namespace std;
 
 // Global Constant Initialization
-const string TITLE = "Array Exercises Program";
+const string TITLE = "Array Function Exercises Program";
 const string AUTHOR_LINE = "By Forrest Moulin";
 const int ARRAY_SIZE = 10;
 
@@ -156,7 +156,7 @@ void placeCommas(int i)
 }
 /*
 * CONSOLE OUTPUT
-* Array Exercises Program
+* Array Function Exercises Program
 * By Forrest Moulin
 * 
 * Original array:
