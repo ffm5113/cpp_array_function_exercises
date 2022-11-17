@@ -13,7 +13,7 @@ const string AUTHOR_LINE = "By Forrest Moulin";
 const int ARRAY_SIZE = 10;
 
 // Initialize global int array of size 10
-int numbers[ARRAY_SIZE] = {5,4,2,7,6,8,5,2,8,14};
+int numbers[ARRAY_SIZE] = {10,20,18,14,12,16,10,20,16,14};
 
 // Function prototypes to notify compiler
 void printOriginal(const int  numbersPassed[]);
@@ -158,28 +158,28 @@ void placeCommas(int i)
 * CONSOLE OUTPUT
 * Array Exercises Program
 * By Forrest Moulin
-*
+* 
 * Original array:
-* {5,4,2,7,6,8,5,2,8,14}
-*
+* {10,20,18,14,12,16,10,20,16,14}
+* 
 * Excercise # 1
 * -------------
 * Squared array:
-* {25,16,4,49,36,64,25,4,64,196}
-*
+* {100,400,324,196,144,256,100,400,256,196}
+* 
 * Excercise # 3
 * -------------
 * Add the following number to each current number,
 * except on the last number:
-* {9,6,9,13,14,13,7,10,22,14}
-*
+* {30,38,32,26,28,26,30,36,30,14}
+* 
 * Excercise # 4
 * -------------
 * Sum of all array numbers:
-* 61
-*
+* 150
+* 
 * Excercise # 5
 * -------------
 * Largest of all original array numbers:
-* 14
+* 20
 */
